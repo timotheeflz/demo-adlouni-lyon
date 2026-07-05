@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adlouni, bar à houmous libanais (Lyon 7e)</title>
+    <meta
+      name="description"
+      content="Cuisine libanaise généreuse près de la place Jean Macé : mezze, houmous maison, plats grillés. Réservation par téléphone."
+    />
+    <meta property="og:title" content="Adlouni, bar à houmous libanais (Lyon 7e)" />
+    <meta
+      property="og:description"
+      content="Cuisine libanaise généreuse près de la place Jean Macé : mezze, houmous maison, plats grillés. Réservation par téléphone."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="preload" as="image" href="assets/hero-mezze.png" />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@700,500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <span class="nav__brand">Adlouni</span>
+      <a href="tel:+33478004500" class="btn-reserve nav__cta">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2Z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        Réserver
+      </a>
+    </header>
+
+    <div class="hero-wrap" id="hero-wrap">
+      <div class="hero-sticky">
+        <img src="assets/hero-mezze.png" alt="" aria-hidden="true" class="hero-backdrop" />
+        <div class="hero-content">
+          <p class="hero-eyebrow">Bar à houmous libanais · Lyon 7e</p>
+          <h1 class="hero-word" id="hero-word">Adlouni</h1>
+          <p class="hero-sub">
+            Mezze généreux, houmous maison et grillades, dans la tradition d'une table
+            de quartier tenue par deux frères depuis 2018.
+          </p>
+          <div class="hero-ctas">
+            <a href="tel:+33478004500" class="btn-reserve" id="reserve-btn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2Z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Réserver
+            </a>
+            <a href="#plats" class="link-menu">Voir la carte</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="story">
+      <p class="eyebrow">Depuis 2018</p>
+      <h2>Deux frères, un houmous, tout un quartier.</h2>
+      <p class="lead">
+        Hassan et Hamudi ont ouvert le premier bar à houmous de Lyon près de la place
+        Jean Macé. Une cuisine familiale libanaise, généreuse et sans détour : houmous
+        travaillé au tahin, falafels croustillants, tabbouleh au citron, et des
+        grillades qui tournent depuis l'ouverture.
+      </p>
+      <p class="quote">"On cuisine comme à la maison, pour que vous repartiez comme de la famille."</p>
+    </section>
+
+    <section id="plats" class="dishes">
+      <div class="dishes__grid">
+        <img src="assets/plat-signature.png" alt="Grillades libanaises, chawarma et kefta" class="dishes__img" />
+        <div>
+          <h2>Deux plats qu'on ne change pas.</h2>
+          <div class="dish-item">
+            <h3>Chawarma maison</h3>
+            <p>Poulet mariné, tourné lentement, servi avec ail confit et pickles maison.</p>
+          </div>
+          <div class="dish-item">
+            <h3>Brochettes de kefta</h3>
+            <p>Bœuf et persil grillés au feu vif, oignons au sumac, riz aux vermicelles.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ambiance">
+      <img src="assets/ambiance.png" alt="Intérieur chaleureux du restaurant Adlouni" class="ambiance__img" />
+      <div class="ambiance__scrim"></div>
+      <div class="ambiance__text">
+        <p>Une petite salle, une pierre chaude, et la même table qui vous attend à chaque fois.</p>
+      </div>
+    </section>
+
+    <section class="infos">
+      <h2>Infos pratiques</h2>
+
+      <div class="info-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+          <path
+            d="M12 21s7-6.1 7-11.5A7 7 0 0 0 5 9.5C5 14.9 12 21 12 21Z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <circle cx="12" cy="9.5" r="2.3" />
+        </svg>
+        <div>
+          <p class="label">Adresse</p>
+          <p class="value">100 Rue d'Anvers, 69007 Lyon</p>
+        </div>
+      </div>
+
+      <div class="info-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+          <circle cx="12" cy="12" r="8.5" />
+          <path d="M12 7.5V12l3 2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <div>
+          <p class="label">Horaires</p>
+          <p class="value">Mar-Dim, 12h-14h30 · 19h-22h30</p>
+        </div>
+      </div>
+
+      <div class="info-row">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+          <path
+            d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2Z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <div>
+          <p class="label">Téléphone</p>
+          <p class="value">04 78 00 45 00</p>
+        </div>
+      </div>
+
+      <div class="infos__cta">
+        <a href="tel:+33478004500" class="btn-reserve" id="reserve-btn-2">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M4 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 2 6a2 2 0 0 1 2-2Z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Réserver
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p class="brand">Adlouni</p>
+      <p class="addr">100 Rue d'Anvers, 69007 Lyon · 04 78 00 45 00</p>
+      <a href="https://www.facebook.com/hoummousbar" target="_blank" rel="noreferrer">Facebook</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
